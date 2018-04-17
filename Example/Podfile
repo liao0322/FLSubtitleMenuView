@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FLSubtitleMenuView_Example' do
+  pod 'FLSubtitleMenuView', :path => '../'
+
+  target 'FLSubtitleMenuView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
