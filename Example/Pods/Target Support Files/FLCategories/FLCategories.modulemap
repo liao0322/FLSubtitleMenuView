@@ -1,0 +1,6 @@
+framework module FLCategories {
+  umbrella header "FLCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

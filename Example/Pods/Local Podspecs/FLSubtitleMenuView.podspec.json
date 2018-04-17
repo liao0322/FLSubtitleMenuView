@@ -1,0 +1,33 @@
+{
+  "name": "FLSubtitleMenuView",
+  "version": "0.1.0",
+  "summary": "A short description of FLSubtitleMenuView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liao0322/FLSubtitleMenuView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liao0322": "liao0322@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liao0322/FLSubtitleMenuView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FLSubtitleMenuView/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "FLSubtitleMenuView": [
+      "FLSubtitleMenuView/Assets/*.png",
+      "FLSubtitleMenuView/Classes/**/*.xib"
+    ]
+  },
+  "dependencies": {
+    "FLCategories": [
+
+    ]
+  }
+}

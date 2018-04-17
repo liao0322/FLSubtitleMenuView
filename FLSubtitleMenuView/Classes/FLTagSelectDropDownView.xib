@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FLTagSelectDropDownView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0lg-3S-hfj">
+                    <rect key="frame" x="32.5" y="15" width="310" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spE-qv-ahv" customClass="NoHighlightButton">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Ap3-bj-cXd"/>
+                                <constraint firstAttribute="width" constant="50" id="lwo-Sd-UB0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="全部">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLe-lC-FZ6" customClass="NoHighlightButton">
+                            <rect key="frame" x="65" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Cag-BX-tJb"/>
+                                <constraint firstAttribute="width" constant="50" id="OZF-2e-oab"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="本周">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF7-xn-54h" customClass="NoHighlightButton">
+                            <rect key="frame" x="130" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="dDN-vo-e7h"/>
+                                <constraint firstAttribute="width" constant="50" id="mky-j8-QyU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="本月">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB5-n4-Gis" customClass="NoHighlightButton">
+                            <rect key="frame" x="195" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="W8M-ML-gvx"/>
+                                <constraint firstAttribute="height" constant="30" id="ojg-ax-z7h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="本季度">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exL-PS-gcv" customClass="NoHighlightButton">
+                            <rect key="frame" x="260" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="EGv-MM-0ry"/>
+                                <constraint firstAttribute="width" constant="50" id="lwS-jD-flp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="本年">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0lg-3S-hfj" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="8ke-er-XRm"/>
+                <constraint firstItem="0lg-3S-hfj" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="xC6-jE-k9E"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="stackView" destination="0lg-3S-hfj" id="zKZ-0f-piP"/>
+                <outletCollection property="tagButtonsArray" destination="spE-qv-ahv" id="BXh-6z-Mq8"/>
+                <outletCollection property="tagButtonsArray" destination="gLe-lC-FZ6" id="w10-fY-ioP"/>
+                <outletCollection property="tagButtonsArray" destination="TF7-xn-54h" id="lee-IG-4mV"/>
+                <outletCollection property="tagButtonsArray" destination="jB5-n4-Gis" id="ESF-rJ-vXF"/>
+                <outletCollection property="tagButtonsArray" destination="exL-PS-gcv" id="ie9-sv-Hct"/>
+                <outletCollection property="btnWidthCons" destination="lwo-Sd-UB0" id="Xqq-00-dAM"/>
+                <outletCollection property="btnWidthCons" destination="OZF-2e-oab" id="x8P-90-U6j"/>
+                <outletCollection property="btnWidthCons" destination="mky-j8-QyU" id="L2V-la-ftd"/>
+                <outletCollection property="btnWidthCons" destination="W8M-ML-gvx" id="BpS-T3-yUP"/>
+                <outletCollection property="btnWidthCons" destination="lwS-jD-flp" id="IWl-JX-x5y"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="63"/>
+        </view>
+    </objects>
+</document>

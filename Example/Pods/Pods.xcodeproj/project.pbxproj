@@ -1,0 +1,1418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A461ED0C8BDDC8ACEE7E6F931DEAA1 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B0DE7D99409CC737FD51AC54940879 /* NSString+Hash.m */; };
+		124E871F201B1718B79ECFF554D4E89A /* UIView+Fillet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B74CD3749C37A06FD09A9AE267CC1D /* UIView+Fillet.m */; };
+		13AD7D4B391910E1BBFA34A37FCB8784 /* NSObject+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = C69DDC6672F80F9424FAB2F2EFCBF128 /* NSObject+Ext.m */; };
+		1760F1A848CC1D2EDAB68D8F16838D3F /* UIButton+Space.m in Sources */ = {isa = PBXBuildFile; fileRef = 01304D9512636BB3285350FCC6A542D5 /* UIButton+Space.m */; };
+		1AD6E6455B87E887C61B4280E62362A4 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = A95F14C6AA0C297CD2428454E10E342C /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD175473F66761DB9A55FDF280B19C6 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E1923B166336584AA7A0C448376FC8 /* NSJSONSerialization+Extension.m */; };
+		1FE59711D2E486683D8455EFAC3B2A2A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C589F4DF4C56D836B94B916D176EB9C7 /* NSDate+Extension.m */; };
+		2022F2AE0090EC683AC90D0E91F7CCF5 /* sort_choose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BD5FE015A4518736F69CFC28979C5F /* sort_choose@2x.png */; };
+		2A3B56D390F29C4E7AFAB02399BB29D7 /* FLTagSelectDropDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C557081AA1A8592B59807A89B95CDCA /* FLTagSelectDropDownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE41770ACF0D0EABDD25A178F247B8A /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D0721E1A43021539AE92EE1BF8DF60 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2DE85CC44CC0A42FEA525F14FDB472 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8E298CC42197F1594C301ECB9674D8 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386C04A8782C8433B1B42213B224E189 /* FLSubtitleMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F1D8592BCDCFD7CC60F25B624B14E22 /* FLSubtitleMenuView.bundle */; };
+		3CCDD10EF15783E19525B26E93665B95 /* NSJSONSerialization+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = FD781C7E39468AD3BE955A8192A92B5A /* NSJSONSerialization+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8B506F234E9D834C0E9571FDC3E652 /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5E196C7138CBF5214C35F538D25D27 /* NSString+Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		414F744D17FBC6FDC76C3A996A9007EA /* sort_choose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1048536FE331AFE4CCFC31D63ED3AF64 /* sort_choose@3x.png */; };
+		43A143185F5495B8F2153D7F8D77E935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */; };
+		47597CEC8CC836930A8FEB3018556478 /* NSString+UINib.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C0CBA8BEE3677471B18C05C7788F3 /* NSString+UINib.m */; };
+		47BA1E1ED04E2C5F634D578D519C2F75 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7CEC2599857268CD568812676980EE /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489D1D9313363E10CE7A036AEF770531 /* GTMBase64-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05479FFE1A50E6458D9846B3240DACE3 /* GTMBase64-dummy.m */; };
+		4E7ADBE98C23EA6B9E0458FA7A7859BB /* FLCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3959425960DF511A9704ECC6E2D13CF2 /* FLCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502ACA3DE1CF65996DE100EC24C96CDF /* FLSubtitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB88850225B082DDB806D0FB636FE92 /* FLSubtitleModel.m */; };
+		55EA97C4B9592FE3F07FD0F32E0E84B3 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBBCD602339388B6BA1DC5BB733774C /* NSString+Extension.m */; };
+		563DFE751D85F073C6DEEC557904ABB6 /* NSString+DES.h in Headers */ = {isa = PBXBuildFile; fileRef = A09F30948132596ABC397A095F11BCE9 /* NSString+DES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE69040C49ADEECBCFC4C6DB689A81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */; };
+		62F636A4064138C1FE2F43F730E39E06 /* UIViewController+Push.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C97B0B3344A14B93CBEBD15004E4F8E /* UIViewController+Push.m */; };
+		6628267A45EAB5FB083E407DE71C406D /* Pods-FLSubtitleMenuView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B21B5E9601E3DA061C421607F366328 /* Pods-FLSubtitleMenuView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		669E6AEA8008852AC8E50BB57FE961D1 /* UIColor+XFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 798A87F20B9113BB4CCB30A69141256F /* UIColor+XFExtension.m */; };
+		6EAEAED491A44721670F10620A4A7660 /* FLCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C03DAB0017CD7355BCF431782F5C5E7 /* FLCategories.framework */; };
+		7A4DFA07A9460B9112E8CDA32A049272 /* UIImage+XFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8D599ED2A7A1E51D91F8D112F0EFBE /* UIImage+XFExtension.m */; };
+		84745399A767933D8E0D9F33AAA443F0 /* UITabBarItem+XFBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 953708BA7936CCF46A633E2E8F141D90 /* UITabBarItem+XFBadge.m */; };
+		866D55E1DB8AC57588DA686E6E713161 /* NSObject+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 898B2E3F12221106897A4FFEB11B10F4 /* NSObject+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89DC2A9D1436228797FF939C56B2D561 /* GTMBase64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8145CD0CA666DF6EA392864F4447A /* GTMBase64.framework */; };
+		8D14F439244A364BC4BC99FA96037FA7 /* FLTagSelectDropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79FA8B09F869CB0D2983B3C7FF60F24C /* FLTagSelectDropDownView.xib */; };
+		938C4F44DF208E14EF24AC3FC5409C93 /* NoHighlightButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F34A5B4F3318B8D9FB8169FE3BCA4EC /* NoHighlightButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C15E84E454E5B0E4C72D244A7E38A88 /* FLCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBDB71BF2F5EB30F31BB6108BCF2D28 /* FLCategories-dummy.m */; };
+		9C1DB9132833C4B1A961F21339E40696 /* UIFont+FengLei.h in Headers */ = {isa = PBXBuildFile; fileRef = D458C3AC01722DB20B91E055203AD21D /* UIFont+FengLei.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C750ED67122210111ADC51B86E11C03 /* UITabBarItem+XFBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B139829E2D7FBD95044EDD80E1F759 /* UITabBarItem+XFBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7DF7375EA3B4E2250AF2E70080FE33 /* FLSubtitleMenuView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634096F9A9F03E6D84F2A5232964092C /* FLSubtitleMenuView-dummy.m */; };
+		A242ED7ED99B23B79FA77B0A4AC09EFB /* NSString+UINib.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A12A4498D661A73C028C8CC2F5E23C /* NSString+UINib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3874B243F68669DFB34331C09CA822A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B48B8AE4BE7F8CA4309BE5DFAFF0A1 /* UIView+Extension.m */; };
+		ABCC7CB6848F07A0712E3BA0780FC64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */; };
+		B48DA26DBB7F4761CF27B2764861361B /* UIImage+XFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB676AE31AF3AE611DD700EF6A287F3 /* UIImage+XFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B505D151C3DC4C477FA89418F6C69187 /* Pods-FLSubtitleMenuView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1250A32211FE2BD58C85FDFC057E7F2B /* Pods-FLSubtitleMenuView_Example-dummy.m */; };
+		B639ADB2CEB735C0892C6E32292AAAC1 /* FLSubtitleMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B2A677B27D2473AF69FDAD155A6C12 /* FLSubtitleMenuView.m */; };
+		B71F052ACC5BCBB609FEF753956C4E48 /* UIColor+XFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 06877E54C87032BF7CAE320849F7D7F5 /* UIColor+XFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB69851320C8B2D9F1AB4E0704962A6E /* UIColor+FengLei.h in Headers */ = {isa = PBXBuildFile; fileRef = B9108CAE08ECCE6B46B379C10CCEE822 /* UIColor+FengLei.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9C86D816E54A9431321D0D3F4729DB /* Pods-FLSubtitleMenuView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E59710643809D975DEB8AD151D1B1B /* Pods-FLSubtitleMenuView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C37FEE52B008B5A10EC832AD2143FE1D /* GTMBase64-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 955935C36BCD9DF40F78801061755057 /* GTMBase64-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52DFFFC82A0C43DFE9E7C00CDFD8420 /* FLSubtitleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CD189382B959E061B253898F3CE7A0 /* FLSubtitleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C721BAD2FB576368A29C6B2510F56FCE /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9364B145251423FA8FB69F26E5813757 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E3251847FA6E56F418E3DB01D8435D /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9555C641BF4F57CA8ADAC7C0C32A3C /* NSString+DES.m */; };
+		C99A4D1FEF57DAD291163F46ADD637E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */; };
+		D4358AFF1421A4342C3DBF09ADCB7421 /* UIView+Fillet.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C3950C700AF3691EAD3B7B0B99A616 /* UIView+Fillet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46B15D914E536CE4B6E1BEBFF947452 /* UIViewController+Push.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A41C7F2AE5FB15ECB35C6BDC3DF21D /* UIViewController+Push.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89FAA330C3DE57391534190869552AE /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8B26FF83277CE742B49F5EC2C0E7A /* GTMBase64.m */; };
+		DD7DCB4B6C4261C321159511DDE5A39D /* UIButton+Space.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA208F6FA21BAC4184BE7C3DE796E91 /* UIButton+Space.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E018F20694FADC49809FFA235D1B66C9 /* GTMBase64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC8145CD0CA666DF6EA392864F4447A /* GTMBase64.framework */; };
+		E2A32401B7D791D727D16CB8E3E2DD21 /* FLSubtitleMenuView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9D2F6C3FEACC10FE1D682D48740372 /* FLSubtitleMenuView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC4841FB555162D2C5E7017D34CC6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */; };
+		EC5D72192DF9272BB218DDFA3305BCA8 /* UIFont+FengLei.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F620FA9A47F65FEDD512793C0E5177 /* UIFont+FengLei.m */; };
+		F0CBBEE1150FAC1EF0AD7C8A9CF38729 /* NoHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250D506B98F579C072F2F16289192D6 /* NoHighlightButton.m */; };
+		F28978420736DD5A92AEA713E6B06B40 /* FLTagSelectDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889498BD38E5E79B92C21A1B43A6073 /* FLTagSelectDropDownView.m */; };
+		F76824943B47745DE712FDDB72A3CA0A /* FLSubtitleMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = B62FBFA2EEC1F1B8832FD1AC6034E6BB /* FLSubtitleMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86089F0AA1C2549545D9C76EF41148C /* Pods-FLSubtitleMenuView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C0C18DAFB3DB777450232124823F0 /* Pods-FLSubtitleMenuView_Tests-dummy.m */; };
+		FD8ADEE262A26D8A82B125B024FCA82D /* UIColor+FengLei.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6E9C23371877EC25223F563C7CDC50 /* UIColor+FengLei.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014D58A537C3BC117F4F3FAC79AEEA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9014AF22CD66E97CE35D366770944A09;
+			remoteInfo = GTMBase64;
+		};
+		24ADD731BD695FA42DDB219F4AB9DD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A22FA8CB004E9E80CDD6D091DB20AD;
+			remoteInfo = FLCategories;
+		};
+		2DC7E6355912F40D2A4F72E5228EB342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C302063B8559B15F21BD813A64510B67;
+			remoteInfo = "FLSubtitleMenuView-FLSubtitleMenuView";
+		};
+		62280F750387F636DD77D1C53BB27CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9014AF22CD66E97CE35D366770944A09;
+			remoteInfo = GTMBase64;
+		};
+		CE93AE584C246B1E1EC15D046578E8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9014AF22CD66E97CE35D366770944A09;
+			remoteInfo = GTMBase64;
+		};
+		E76723CE0BAC041E24729530A3DBB07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A888FCE71F742520F481C064C692177B;
+			remoteInfo = FLSubtitleMenuView;
+		};
+		F7E44F92D06BE82D3850B51D1AB10072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A22FA8CB004E9E80CDD6D091DB20AD;
+			remoteInfo = FLCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01304D9512636BB3285350FCC6A542D5 /* UIButton+Space.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Space.m"; path = "FLCategories/Classes/UIButton/UIButton+Space.m"; sourceTree = "<group>"; };
+		05479FFE1A50E6458D9846B3240DACE3 /* GTMBase64-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMBase64-dummy.m"; sourceTree = "<group>"; };
+		059A3A4CB6FC9DBA11880B70441C0DB7 /* GTMBase64-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMBase64-prefix.pch"; sourceTree = "<group>"; };
+		06877E54C87032BF7CAE320849F7D7F5 /* UIColor+XFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+XFExtension.h"; path = "FLCategories/Classes/UIColor/UIColor+XFExtension.h"; sourceTree = "<group>"; };
+		08B2A677B27D2473AF69FDAD155A6C12 /* FLSubtitleMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLSubtitleMenuView.m; path = FLSubtitleMenuView/Classes/FLSubtitleMenuView.m; sourceTree = "<group>"; };
+		0B21B5E9601E3DA061C421607F366328 /* Pods-FLSubtitleMenuView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLSubtitleMenuView_Example-umbrella.h"; sourceTree = "<group>"; };
+		0F1D8592BCDCFD7CC60F25B624B14E22 /* FLSubtitleMenuView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FLSubtitleMenuView.bundle; path = "FLSubtitleMenuView-FLSubtitleMenuView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10417A979549C2F2FDF865083933672E /* Pods-FLSubtitleMenuView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLSubtitleMenuView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1048536FE331AFE4CCFC31D63ED3AF64 /* sort_choose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sort_choose@3x.png"; sourceTree = "<group>"; };
+		1250A32211FE2BD58C85FDFC057E7F2B /* Pods-FLSubtitleMenuView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLSubtitleMenuView_Example-dummy.m"; sourceTree = "<group>"; };
+		1262D71AA7342F50A6AD072E1C9B1ABA /* FLCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCategories-prefix.pch"; sourceTree = "<group>"; };
+		1759459CF2997E24931F47AD2519A898 /* Pods-FLSubtitleMenuView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSubtitleMenuView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		185C0C18DAFB3DB777450232124823F0 /* Pods-FLSubtitleMenuView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLSubtitleMenuView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1889498BD38E5E79B92C21A1B43A6073 /* FLTagSelectDropDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTagSelectDropDownView.m; path = FLSubtitleMenuView/Classes/FLTagSelectDropDownView.m; sourceTree = "<group>"; };
+		19BD5FE015A4518736F69CFC28979C5F /* sort_choose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "sort_choose@2x.png"; sourceTree = "<group>"; };
+		1C03DAB0017CD7355BCF431782F5C5E7 /* FLCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7CEC2599857268CD568812676980EE /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = GTMBase64/GTMDefines.h; sourceTree = "<group>"; };
+		241C0CBA8BEE3677471B18C05C7788F3 /* NSString+UINib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+UINib.m"; path = "FLCategories/Classes/NSString/NSString+UINib.m"; sourceTree = "<group>"; };
+		25C3950C700AF3691EAD3B7B0B99A616 /* UIView+Fillet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Fillet.h"; path = "FLCategories/Classes/UIView/UIView+Fillet.h"; sourceTree = "<group>"; };
+		2673AE22D74C2BCE9517BC065CA99848 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3250D506B98F579C072F2F16289192D6 /* NoHighlightButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoHighlightButton.m; path = FLSubtitleMenuView/Classes/NoHighlightButton.m; sourceTree = "<group>"; };
+		34A12A4498D661A73C028C8CC2F5E23C /* NSString+UINib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+UINib.h"; path = "FLCategories/Classes/NSString/NSString+UINib.h"; sourceTree = "<group>"; };
+		37DF8A1E803E9E0C62DC01DCADC03B7D /* Pods-FLSubtitleMenuView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSubtitleMenuView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38C5D0C75C98C523F0CB686CC671B3B9 /* Pods-FLSubtitleMenuView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSubtitleMenuView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3959425960DF511A9704ECC6E2D13CF2 /* FLCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCategories-umbrella.h"; sourceTree = "<group>"; };
+		3E015D5889674DF6A5A4E394C6297BF1 /* Pods-FLSubtitleMenuView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLSubtitleMenuView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F34A5B4F3318B8D9FB8169FE3BCA4EC /* NoHighlightButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoHighlightButton.h; path = FLSubtitleMenuView/Classes/NoHighlightButton.h; sourceTree = "<group>"; };
+		40CC0A52A9FD1B906CEEF0799CC3E365 /* FLCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLCategories.modulemap; sourceTree = "<group>"; };
+		4176B55AE38CCA28548FBADD9A7B5AD8 /* Pods-FLSubtitleMenuView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLSubtitleMenuView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47CD4F06B5A618FDA149CDFEE092C29B /* GTMBase64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMBase64.framework; path = GTMBase64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8E298CC42197F1594C301ECB9674D8 /* NSDate+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extension.h"; path = "FLCategories/Classes/NSDate/NSDate+Extension.h"; sourceTree = "<group>"; };
+		4BE78CA83E255CBE1C73C6A88623E81B /* Pods-FLSubtitleMenuView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLSubtitleMenuView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C557081AA1A8592B59807A89B95CDCA /* FLTagSelectDropDownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTagSelectDropDownView.h; path = FLSubtitleMenuView/Classes/FLTagSelectDropDownView.h; sourceTree = "<group>"; };
+		4CB88850225B082DDB806D0FB636FE92 /* FLSubtitleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLSubtitleModel.m; path = FLSubtitleMenuView/Classes/FLSubtitleModel.m; sourceTree = "<group>"; };
+		4CF705E9B835069842E9DE935F5F1168 /* Pods-FLSubtitleMenuView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLSubtitleMenuView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54C397F2865664D62843FAB6180905BD /* FLCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLCategories.framework; path = FLCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D7DFF4C496A6577F7BF38CEFC93E80 /* Pods-FLSubtitleMenuView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLSubtitleMenuView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5E9D2F6C3FEACC10FE1D682D48740372 /* FLSubtitleMenuView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLSubtitleMenuView-umbrella.h"; sourceTree = "<group>"; };
+		5EB1EB24554164C40E1BD6C81ACC843C /* GTMBase64.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMBase64.modulemap; sourceTree = "<group>"; };
+		634096F9A9F03E6D84F2A5232964092C /* FLSubtitleMenuView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLSubtitleMenuView-dummy.m"; sourceTree = "<group>"; };
+		63C88A3D422572F41D50A091E6CCC942 /* Pods-FLSubtitleMenuView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLSubtitleMenuView_Example.modulemap"; sourceTree = "<group>"; };
+		6A090989F78E904FAE2235B43CBB7139 /* GTMBase64.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMBase64.xcconfig; sourceTree = "<group>"; };
+		6B6E9C23371877EC25223F563C7CDC50 /* UIColor+FengLei.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FengLei.m"; path = "FLCategories/Classes/UIColor/UIColor+FengLei.m"; sourceTree = "<group>"; };
+		6BBBCD602339388B6BA1DC5BB733774C /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "FLCategories/Classes/NSString/NSString+Extension.m"; sourceTree = "<group>"; };
+		75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLSubtitleMenuView.xcconfig; sourceTree = "<group>"; };
+		798A87F20B9113BB4CCB30A69141256F /* UIColor+XFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XFExtension.m"; path = "FLCategories/Classes/UIColor/UIColor+XFExtension.m"; sourceTree = "<group>"; };
+		79FA8B09F869CB0D2983B3C7FF60F24C /* FLTagSelectDropDownView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FLTagSelectDropDownView.xib; sourceTree = "<group>"; };
+		7C97B0B3344A14B93CBEBD15004E4F8E /* UIViewController+Push.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Push.m"; path = "FLCategories/Classes/UIViewController/UIViewController+Push.m"; sourceTree = "<group>"; };
+		7CC5CC79353A1102021C1D700D7281B8 /* FLSubtitleMenuView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLSubtitleMenuView-prefix.pch"; sourceTree = "<group>"; };
+		84B74CD3749C37A06FD09A9AE267CC1D /* UIView+Fillet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Fillet.m"; path = "FLCategories/Classes/UIView/UIView+Fillet.m"; sourceTree = "<group>"; };
+		8618251DB511B7D2CC39CA01D37752A3 /* Pods-FLSubtitleMenuView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLSubtitleMenuView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		898B2E3F12221106897A4FFEB11B10F4 /* NSObject+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Ext.h"; path = "FLCategories/Classes/NSObject/NSObject+Ext.h"; sourceTree = "<group>"; };
+		89D0721E1A43021539AE92EE1BF8DF60 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "FLCategories/Classes/NSString/NSString+Extension.h"; sourceTree = "<group>"; };
+		8BA208F6FA21BAC4184BE7C3DE796E91 /* UIButton+Space.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Space.h"; path = "FLCategories/Classes/UIButton/UIButton+Space.h"; sourceTree = "<group>"; };
+		8C0D43F9D925503FB6790D42F31A7F98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9364B145251423FA8FB69F26E5813757 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "FLCategories/Classes/UIView/UIView+Extension.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953708BA7936CCF46A633E2E8F141D90 /* UITabBarItem+XFBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+XFBadge.m"; path = "FLCategories/Classes/UITabBarItem/UITabBarItem+XFBadge.m"; sourceTree = "<group>"; };
+		955935C36BCD9DF40F78801061755057 /* GTMBase64-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMBase64-umbrella.h"; sourceTree = "<group>"; };
+		955E70371CE4C768DAA43C550C545799 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A41C7F2AE5FB15ECB35C6BDC3DF21D /* UIViewController+Push.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Push.h"; path = "FLCategories/Classes/UIViewController/UIViewController+Push.h"; sourceTree = "<group>"; };
+		99E6696A725131590F8AA4A2147296B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4B30758362A45EE4A46EA9B41A03D9 /* FLCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLCategories.xcconfig; sourceTree = "<group>"; };
+		9DA8B26FF83277CE742B49F5EC2C0E7A /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMBase64.m; path = GTMBase64/GTMBase64.m; sourceTree = "<group>"; };
+		A09F30948132596ABC397A095F11BCE9 /* NSString+DES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DES.h"; path = "FLCategories/Classes/NSString/NSString+DES.h"; sourceTree = "<group>"; };
+		A7B139829E2D7FBD95044EDD80E1F759 /* UITabBarItem+XFBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+XFBadge.h"; path = "FLCategories/Classes/UITabBarItem/UITabBarItem+XFBadge.h"; sourceTree = "<group>"; };
+		A95F14C6AA0C297CD2428454E10E342C /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = GTMBase64/GTMBase64.h; sourceTree = "<group>"; };
+		AB5E196C7138CBF5214C35F538D25D27 /* NSString+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "FLCategories/Classes/NSString/NSString+Hash.h"; sourceTree = "<group>"; };
+		AC8D599ED2A7A1E51D91F8D112F0EFBE /* UIImage+XFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XFExtension.m"; path = "FLCategories/Classes/UIImage/UIImage+XFExtension.m"; sourceTree = "<group>"; };
+		AFC8145CD0CA666DF6EA392864F4447A /* GTMBase64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMBase64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62FBFA2EEC1F1B8832FD1AC6034E6BB /* FLSubtitleMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLSubtitleMenuView.h; path = FLSubtitleMenuView/Classes/FLSubtitleMenuView.h; sourceTree = "<group>"; };
+		B7929391459445353E6DD1CFFE8F74FE /* Pods-FLSubtitleMenuView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLSubtitleMenuView_Example-resources.sh"; sourceTree = "<group>"; };
+		B9108CAE08ECCE6B46B379C10CCEE822 /* UIColor+FengLei.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FengLei.h"; path = "FLCategories/Classes/UIColor/UIColor+FengLei.h"; sourceTree = "<group>"; };
+		BB5FBC22AD84BD4FC73F853805C5054F /* ResourceBundle-FLSubtitleMenuView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FLSubtitleMenuView-Info.plist"; sourceTree = "<group>"; };
+		C589F4DF4C56D836B94B916D176EB9C7 /* NSDate+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extension.m"; path = "FLCategories/Classes/NSDate/NSDate+Extension.m"; sourceTree = "<group>"; };
+		C69DDC6672F80F9424FAB2F2EFCBF128 /* NSObject+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Ext.m"; path = "FLCategories/Classes/NSObject/NSObject+Ext.m"; sourceTree = "<group>"; };
+		CA9555C641BF4F57CA8ADAC7C0C32A3C /* NSString+DES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DES.m"; path = "FLCategories/Classes/NSString/NSString+DES.m"; sourceTree = "<group>"; };
+		CEE97AAB8769F57F89359E381CDBA26C /* Pods_FLSubtitleMenuView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLSubtitleMenuView_Tests.framework; path = "Pods-FLSubtitleMenuView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1890A54B354B4F33C821F70F8336079 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E59710643809D975DEB8AD151D1B1B /* Pods-FLSubtitleMenuView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLSubtitleMenuView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D458C3AC01722DB20B91E055203AD21D /* UIFont+FengLei.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+FengLei.h"; path = "FLCategories/Classes/UIFont/UIFont+FengLei.h"; sourceTree = "<group>"; };
+		D8314FF4DA4E955B0B5B2D414500AA60 /* FLSubtitleMenuView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLSubtitleMenuView.modulemap; sourceTree = "<group>"; };
+		DB3042DFFC6F59D04321205ACC0B860F /* Pods_FLSubtitleMenuView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLSubtitleMenuView_Example.framework; path = "Pods-FLSubtitleMenuView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE317ACA567A485FBAFA6B204C395A60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E2F620FA9A47F65FEDD512793C0E5177 /* UIFont+FengLei.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FengLei.m"; path = "FLCategories/Classes/UIFont/UIFont+FengLei.m"; sourceTree = "<group>"; };
+		E5B48B8AE4BE7F8CA4309BE5DFAFF0A1 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "FLCategories/Classes/UIView/UIView+Extension.m"; sourceTree = "<group>"; };
+		EA191798A2398CE46317E4922A2ED30C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAB676AE31AF3AE611DD700EF6A287F3 /* UIImage+XFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XFExtension.h"; path = "FLCategories/Classes/UIImage/UIImage+XFExtension.h"; sourceTree = "<group>"; };
+		ECBDB71BF2F5EB30F31BB6108BCF2D28 /* FLCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLCategories-dummy.m"; sourceTree = "<group>"; };
+		ED5554202D644F935CEB6B88B10F8605 /* FLSubtitleMenuView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLSubtitleMenuView.framework; path = FLSubtitleMenuView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E1923B166336584AA7A0C448376FC8 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Extension.m"; path = "FLCategories/Classes/NSJSONSerialization/NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
+		F4B0DE7D99409CC737FD51AC54940879 /* NSString+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "FLCategories/Classes/NSString/NSString+Hash.m"; sourceTree = "<group>"; };
+		F7119CB393CC7F7D0747323524FC6D62 /* FLSubtitleMenuView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FLSubtitleMenuView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F811E21441A34F90F822FA3C3DFADC29 /* Pods-FLSubtitleMenuView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLSubtitleMenuView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8CD189382B959E061B253898F3CE7A0 /* FLSubtitleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLSubtitleModel.h; path = FLSubtitleMenuView/Classes/FLSubtitleModel.h; sourceTree = "<group>"; };
+		FD781C7E39468AD3BE955A8192A92B5A /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Extension.h"; path = "FLCategories/Classes/NSJSONSerialization/NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
+		FEF9C3CB125C40EDEE5EF3D19B3A069A /* Pods-FLSubtitleMenuView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLSubtitleMenuView_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455AC8125E5134524516F719762B3CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCC7CB6848F07A0712E3BA0780FC64A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FB7251CF37AE1443DB7B498B11F50F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAEAED491A44721670F10620A4A7660 /* FLCategories.framework in Frameworks */,
+				C99A4D1FEF57DAD291163F46ADD637E4 /* Foundation.framework in Frameworks */,
+				E018F20694FADC49809FFA235D1B66C9 /* GTMBase64.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C24126BDAAD9ABB732EEE99159630E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE69040C49ADEECBCFC4C6DB689A81E /* Foundation.framework in Frameworks */,
+				89DC2A9D1436228797FF939C56B2D561 /* GTMBase64.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8262F39CF8CE608172E277EF0A412195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79FFAA966943DAAC18F224AEADEE27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC4841FB555162D2C5E7017D34CC6B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7155D06EB8E1F4535AD5A4233426E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A143185F5495B8F2153D7F8D77E935 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD7A07A0D8C2185442544223FA066B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				314F696C05610DBB762A81EB4209FF6C /* FLCategories */,
+				E345063E34D4356125D3AB8B69429CB5 /* GTMBase64 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27EDAB9F94CC6B74BF4FFD2D5CAB9E26 /* Pods-FLSubtitleMenuView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1890A54B354B4F33C821F70F8336079 /* Info.plist */,
+				FEF9C3CB125C40EDEE5EF3D19B3A069A /* Pods-FLSubtitleMenuView_Tests.modulemap */,
+				8618251DB511B7D2CC39CA01D37752A3 /* Pods-FLSubtitleMenuView_Tests-acknowledgements.markdown */,
+				4176B55AE38CCA28548FBADD9A7B5AD8 /* Pods-FLSubtitleMenuView_Tests-acknowledgements.plist */,
+				185C0C18DAFB3DB777450232124823F0 /* Pods-FLSubtitleMenuView_Tests-dummy.m */,
+				3E015D5889674DF6A5A4E394C6297BF1 /* Pods-FLSubtitleMenuView_Tests-frameworks.sh */,
+				10417A979549C2F2FDF865083933672E /* Pods-FLSubtitleMenuView_Tests-resources.sh */,
+				D2E59710643809D975DEB8AD151D1B1B /* Pods-FLSubtitleMenuView_Tests-umbrella.h */,
+				1759459CF2997E24931F47AD2519A898 /* Pods-FLSubtitleMenuView_Tests.debug.xcconfig */,
+				37DF8A1E803E9E0C62DC01DCADC03B7D /* Pods-FLSubtitleMenuView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FLSubtitleMenuView_Tests";
+			path = "Target Support Files/Pods-FLSubtitleMenuView_Tests";
+			sourceTree = "<group>";
+		};
+		280882722D5867746DE8C6E09DDE6698 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				19BD5FE015A4518736F69CFC28979C5F /* sort_choose@2x.png */,
+				1048536FE331AFE4CCFC31D63ED3AF64 /* sort_choose@3x.png */,
+			);
+			name = Assets;
+			path = FLSubtitleMenuView/Assets;
+			sourceTree = "<group>";
+		};
+		314F696C05610DBB762A81EB4209FF6C /* FLCategories */ = {
+			isa = PBXGroup;
+			children = (
+				4A8E298CC42197F1594C301ECB9674D8 /* NSDate+Extension.h */,
+				C589F4DF4C56D836B94B916D176EB9C7 /* NSDate+Extension.m */,
+				FD781C7E39468AD3BE955A8192A92B5A /* NSJSONSerialization+Extension.h */,
+				F3E1923B166336584AA7A0C448376FC8 /* NSJSONSerialization+Extension.m */,
+				898B2E3F12221106897A4FFEB11B10F4 /* NSObject+Ext.h */,
+				C69DDC6672F80F9424FAB2F2EFCBF128 /* NSObject+Ext.m */,
+				A09F30948132596ABC397A095F11BCE9 /* NSString+DES.h */,
+				CA9555C641BF4F57CA8ADAC7C0C32A3C /* NSString+DES.m */,
+				89D0721E1A43021539AE92EE1BF8DF60 /* NSString+Extension.h */,
+				6BBBCD602339388B6BA1DC5BB733774C /* NSString+Extension.m */,
+				AB5E196C7138CBF5214C35F538D25D27 /* NSString+Hash.h */,
+				F4B0DE7D99409CC737FD51AC54940879 /* NSString+Hash.m */,
+				34A12A4498D661A73C028C8CC2F5E23C /* NSString+UINib.h */,
+				241C0CBA8BEE3677471B18C05C7788F3 /* NSString+UINib.m */,
+				8BA208F6FA21BAC4184BE7C3DE796E91 /* UIButton+Space.h */,
+				01304D9512636BB3285350FCC6A542D5 /* UIButton+Space.m */,
+				B9108CAE08ECCE6B46B379C10CCEE822 /* UIColor+FengLei.h */,
+				6B6E9C23371877EC25223F563C7CDC50 /* UIColor+FengLei.m */,
+				06877E54C87032BF7CAE320849F7D7F5 /* UIColor+XFExtension.h */,
+				798A87F20B9113BB4CCB30A69141256F /* UIColor+XFExtension.m */,
+				D458C3AC01722DB20B91E055203AD21D /* UIFont+FengLei.h */,
+				E2F620FA9A47F65FEDD512793C0E5177 /* UIFont+FengLei.m */,
+				EAB676AE31AF3AE611DD700EF6A287F3 /* UIImage+XFExtension.h */,
+				AC8D599ED2A7A1E51D91F8D112F0EFBE /* UIImage+XFExtension.m */,
+				A7B139829E2D7FBD95044EDD80E1F759 /* UITabBarItem+XFBadge.h */,
+				953708BA7936CCF46A633E2E8F141D90 /* UITabBarItem+XFBadge.m */,
+				9364B145251423FA8FB69F26E5813757 /* UIView+Extension.h */,
+				E5B48B8AE4BE7F8CA4309BE5DFAFF0A1 /* UIView+Extension.m */,
+				25C3950C700AF3691EAD3B7B0B99A616 /* UIView+Fillet.h */,
+				84B74CD3749C37A06FD09A9AE267CC1D /* UIView+Fillet.m */,
+				99A41C7F2AE5FB15ECB35C6BDC3DF21D /* UIViewController+Push.h */,
+				7C97B0B3344A14B93CBEBD15004E4F8E /* UIViewController+Push.m */,
+				5159A4BEE21FA127BEA085678F9F8399 /* Support Files */,
+			);
+			name = FLCategories;
+			path = FLCategories;
+			sourceTree = "<group>";
+		};
+		3B2A4B9AB2F78BB19B04475FB8918E6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EB1EB24554164C40E1BD6C81ACC843C /* GTMBase64.modulemap */,
+				6A090989F78E904FAE2235B43CBB7139 /* GTMBase64.xcconfig */,
+				05479FFE1A50E6458D9846B3240DACE3 /* GTMBase64-dummy.m */,
+				059A3A4CB6FC9DBA11880B70441C0DB7 /* GTMBase64-prefix.pch */,
+				955935C36BCD9DF40F78801061755057 /* GTMBase64-umbrella.h */,
+				EA191798A2398CE46317E4922A2ED30C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMBase64";
+			sourceTree = "<group>";
+		};
+		4A712417A2B48E18DEF1B05BA4D413A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C397F2865664D62843FAB6180905BD /* FLCategories.framework */,
+				0F1D8592BCDCFD7CC60F25B624B14E22 /* FLSubtitleMenuView.bundle */,
+				ED5554202D644F935CEB6B88B10F8605 /* FLSubtitleMenuView.framework */,
+				47CD4F06B5A618FDA149CDFEE092C29B /* GTMBase64.framework */,
+				DB3042DFFC6F59D04321205ACC0B860F /* Pods_FLSubtitleMenuView_Example.framework */,
+				CEE97AAB8769F57F89359E381CDBA26C /* Pods_FLSubtitleMenuView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5159A4BEE21FA127BEA085678F9F8399 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40CC0A52A9FD1B906CEEF0799CC3E365 /* FLCategories.modulemap */,
+				9B4B30758362A45EE4A46EA9B41A03D9 /* FLCategories.xcconfig */,
+				ECBDB71BF2F5EB30F31BB6108BCF2D28 /* FLCategories-dummy.m */,
+				1262D71AA7342F50A6AD072E1C9B1ABA /* FLCategories-prefix.pch */,
+				3959425960DF511A9704ECC6E2D13CF2 /* FLCategories-umbrella.h */,
+				99E6696A725131590F8AA4A2147296B8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLCategories";
+			sourceTree = "<group>";
+		};
+		7CA903CF74A03C5104CAF4B3153FA4D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				280882722D5867746DE8C6E09DDE6698 /* Assets */,
+				8A018B4D021154A2F30BA27540AA8EFE /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ECD692997B8464F560DEF8864276CB16 /* Development Pods */,
+				E5406A15606060442EA79A7099B2DF1D /* Frameworks */,
+				0AD7A07A0D8C2185442544223FA066B5 /* Pods */,
+				4A712417A2B48E18DEF1B05BA4D413A9 /* Products */,
+				E6BC0233705BD8891C71052CAEFB555D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A018B4D021154A2F30BA27540AA8EFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79FA8B09F869CB0D2983B3C7FF60F24C /* FLTagSelectDropDownView.xib */,
+			);
+			name = Classes;
+			path = FLSubtitleMenuView/Classes;
+			sourceTree = "<group>";
+		};
+		971A0CFC1B6EB04EFADD1B70E8E28370 /* FLSubtitleMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				B62FBFA2EEC1F1B8832FD1AC6034E6BB /* FLSubtitleMenuView.h */,
+				08B2A677B27D2473AF69FDAD155A6C12 /* FLSubtitleMenuView.m */,
+				F8CD189382B959E061B253898F3CE7A0 /* FLSubtitleModel.h */,
+				4CB88850225B082DDB806D0FB636FE92 /* FLSubtitleModel.m */,
+				4C557081AA1A8592B59807A89B95CDCA /* FLTagSelectDropDownView.h */,
+				1889498BD38E5E79B92C21A1B43A6073 /* FLTagSelectDropDownView.m */,
+				3F34A5B4F3318B8D9FB8169FE3BCA4EC /* NoHighlightButton.h */,
+				3250D506B98F579C072F2F16289192D6 /* NoHighlightButton.m */,
+				FCB9B5C182A6567EF03E10CF94EE5337 /* Pod */,
+				7CA903CF74A03C5104CAF4B3153FA4D3 /* Resources */,
+				B2B7B2849D91512EA033C59DC1E70841 /* Support Files */,
+			);
+			name = FLSubtitleMenuView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F84A01F1BFF615B639053D74E6168F2 /* Pods-FLSubtitleMenuView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D43F9D925503FB6790D42F31A7F98 /* Info.plist */,
+				63C88A3D422572F41D50A091E6CCC942 /* Pods-FLSubtitleMenuView_Example.modulemap */,
+				4CF705E9B835069842E9DE935F5F1168 /* Pods-FLSubtitleMenuView_Example-acknowledgements.markdown */,
+				4BE78CA83E255CBE1C73C6A88623E81B /* Pods-FLSubtitleMenuView_Example-acknowledgements.plist */,
+				1250A32211FE2BD58C85FDFC057E7F2B /* Pods-FLSubtitleMenuView_Example-dummy.m */,
+				57D7DFF4C496A6577F7BF38CEFC93E80 /* Pods-FLSubtitleMenuView_Example-frameworks.sh */,
+				B7929391459445353E6DD1CFFE8F74FE /* Pods-FLSubtitleMenuView_Example-resources.sh */,
+				0B21B5E9601E3DA061C421607F366328 /* Pods-FLSubtitleMenuView_Example-umbrella.h */,
+				38C5D0C75C98C523F0CB686CC671B3B9 /* Pods-FLSubtitleMenuView_Example.debug.xcconfig */,
+				F811E21441A34F90F822FA3C3DFADC29 /* Pods-FLSubtitleMenuView_Example.release.xcconfig */,
+			);
+			name = "Pods-FLSubtitleMenuView_Example";
+			path = "Target Support Files/Pods-FLSubtitleMenuView_Example";
+			sourceTree = "<group>";
+		};
+		B2B7B2849D91512EA033C59DC1E70841 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8314FF4DA4E955B0B5B2D414500AA60 /* FLSubtitleMenuView.modulemap */,
+				75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */,
+				634096F9A9F03E6D84F2A5232964092C /* FLSubtitleMenuView-dummy.m */,
+				7CC5CC79353A1102021C1D700D7281B8 /* FLSubtitleMenuView-prefix.pch */,
+				5E9D2F6C3FEACC10FE1D682D48740372 /* FLSubtitleMenuView-umbrella.h */,
+				955E70371CE4C768DAA43C550C545799 /* Info.plist */,
+				BB5FBC22AD84BD4FC73F853805C5054F /* ResourceBundle-FLSubtitleMenuView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLSubtitleMenuView";
+			sourceTree = "<group>";
+		};
+		D482FF5B3D3CBA70CB9F3BB9AD6BCA1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E39AD163DE08C96377345321AD8FD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E345063E34D4356125D3AB8B69429CB5 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				A95F14C6AA0C297CD2428454E10E342C /* GTMBase64.h */,
+				9DA8B26FF83277CE742B49F5EC2C0E7A /* GTMBase64.m */,
+				1F7CEC2599857268CD568812676980EE /* GTMDefines.h */,
+				3B2A4B9AB2F78BB19B04475FB8918E6D /* Support Files */,
+			);
+			name = GTMBase64;
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		E5406A15606060442EA79A7099B2DF1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C03DAB0017CD7355BCF431782F5C5E7 /* FLCategories.framework */,
+				AFC8145CD0CA666DF6EA392864F4447A /* GTMBase64.framework */,
+				D482FF5B3D3CBA70CB9F3BB9AD6BCA1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6BC0233705BD8891C71052CAEFB555D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F84A01F1BFF615B639053D74E6168F2 /* Pods-FLSubtitleMenuView_Example */,
+				27EDAB9F94CC6B74BF4FFD2D5CAB9E26 /* Pods-FLSubtitleMenuView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECD692997B8464F560DEF8864276CB16 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				971A0CFC1B6EB04EFADD1B70E8E28370 /* FLSubtitleMenuView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FCB9B5C182A6567EF03E10CF94EE5337 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7119CB393CC7F7D0747323524FC6D62 /* FLSubtitleMenuView.podspec */,
+				DE317ACA567A485FBAFA6B204C395A60 /* LICENSE */,
+				2673AE22D74C2BCE9517BC065CA99848 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4396C8712C3770659625ED895A36879B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37FEE52B008B5A10EC832AD2143FE1D /* GTMBase64-umbrella.h in Headers */,
+				1AD6E6455B87E887C61B4280E62362A4 /* GTMBase64.h in Headers */,
+				47BA1E1ED04E2C5F634D578D519C2F75 /* GTMDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AEC680CE2DE660A2BE0AA0CD52C890 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7ADBE98C23EA6B9E0458FA7A7859BB /* FLCategories-umbrella.h in Headers */,
+				2F2DE85CC44CC0A42FEA525F14FDB472 /* NSDate+Extension.h in Headers */,
+				3CCDD10EF15783E19525B26E93665B95 /* NSJSONSerialization+Extension.h in Headers */,
+				866D55E1DB8AC57588DA686E6E713161 /* NSObject+Ext.h in Headers */,
+				563DFE751D85F073C6DEEC557904ABB6 /* NSString+DES.h in Headers */,
+				2EE41770ACF0D0EABDD25A178F247B8A /* NSString+Extension.h in Headers */,
+				3E8B506F234E9D834C0E9571FDC3E652 /* NSString+Hash.h in Headers */,
+				A242ED7ED99B23B79FA77B0A4AC09EFB /* NSString+UINib.h in Headers */,
+				DD7DCB4B6C4261C321159511DDE5A39D /* UIButton+Space.h in Headers */,
+				BB69851320C8B2D9F1AB4E0704962A6E /* UIColor+FengLei.h in Headers */,
+				B71F052ACC5BCBB609FEF753956C4E48 /* UIColor+XFExtension.h in Headers */,
+				9C1DB9132833C4B1A961F21339E40696 /* UIFont+FengLei.h in Headers */,
+				B48DA26DBB7F4761CF27B2764861361B /* UIImage+XFExtension.h in Headers */,
+				9C750ED67122210111ADC51B86E11C03 /* UITabBarItem+XFBadge.h in Headers */,
+				C721BAD2FB576368A29C6B2510F56FCE /* UIView+Extension.h in Headers */,
+				D4358AFF1421A4342C3DBF09ADCB7421 /* UIView+Fillet.h in Headers */,
+				D46B15D914E536CE4B6E1BEBFF947452 /* UIViewController+Push.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDED549F90CE26BBE2A947A469A5B79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6628267A45EAB5FB083E407DE71C406D /* Pods-FLSubtitleMenuView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8330B74A9AA4CF53B053863F5846F27D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9C86D816E54A9431321D0D3F4729DB /* Pods-FLSubtitleMenuView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985077E8C5D02EDE949897B8E8EF3AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A32401B7D791D727D16CB8E3E2DD21 /* FLSubtitleMenuView-umbrella.h in Headers */,
+				F76824943B47745DE712FDDB72A3CA0A /* FLSubtitleMenuView.h in Headers */,
+				C52DFFFC82A0C43DFE9E7C00CDFD8420 /* FLSubtitleModel.h in Headers */,
+				2A3B56D390F29C4E7AFAB02399BB29D7 /* FLTagSelectDropDownView.h in Headers */,
+				938C4F44DF208E14EF24AC3FC5409C93 /* NoHighlightButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A6A34A6697595D24FEA0EE0D37FD07A /* Pods-FLSubtitleMenuView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931A1FE59EF8E8BA3CDADCA275937E6C /* Build configuration list for PBXNativeTarget "Pods-FLSubtitleMenuView_Tests" */;
+			buildPhases = (
+				4034748C479892899ECDE6C0E4FF1910 /* Sources */,
+				A79FFAA966943DAAC18F224AEADEE27C /* Frameworks */,
+				8330B74A9AA4CF53B053863F5846F27D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FLSubtitleMenuView_Tests";
+			productName = "Pods-FLSubtitleMenuView_Tests";
+			productReference = CEE97AAB8769F57F89359E381CDBA26C /* Pods_FLSubtitleMenuView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9014AF22CD66E97CE35D366770944A09 /* GTMBase64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E101962AF56D6A7F45B5DAADD2839C /* Build configuration list for PBXNativeTarget "GTMBase64" */;
+			buildPhases = (
+				45FCC72C778231E2691C659AD74FBFD4 /* Sources */,
+				455AC8125E5134524516F719762B3CA3 /* Frameworks */,
+				4396C8712C3770659625ED895A36879B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMBase64;
+			productName = GTMBase64;
+			productReference = 47CD4F06B5A618FDA149CDFEE092C29B /* GTMBase64.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A888FCE71F742520F481C064C692177B /* FLSubtitleMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C070646B99602907C8325A49DF857209 /* Build configuration list for PBXNativeTarget "FLSubtitleMenuView" */;
+			buildPhases = (
+				C89BECDCCAB4ED9CAD473E2E5B502317 /* Sources */,
+				66FB7251CF37AE1443DB7B498B11F50F /* Frameworks */,
+				99546691DC88E2713DC208C3B68FC66E /* Resources */,
+				985077E8C5D02EDE949897B8E8EF3AD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6839A386066ED9939F306505138276 /* PBXTargetDependency */,
+				54F56DECBEF6AD32D546A049AF77F353 /* PBXTargetDependency */,
+				F563E73F983F8AE49077B1326EC35B51 /* PBXTargetDependency */,
+			);
+			name = FLSubtitleMenuView;
+			productName = FLSubtitleMenuView;
+			productReference = ED5554202D644F935CEB6B88B10F8605 /* FLSubtitleMenuView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C302063B8559B15F21BD813A64510B67 /* FLSubtitleMenuView-FLSubtitleMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7941BAECC959C64EEEAB5EB4A10D0EC9 /* Build configuration list for PBXNativeTarget "FLSubtitleMenuView-FLSubtitleMenuView" */;
+			buildPhases = (
+				199F0898DE97DB949AD5D5FF90C9F48B /* Sources */,
+				8262F39CF8CE608172E277EF0A412195 /* Frameworks */,
+				60B77EBDCA22D108582A9EDA8E1AE801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLSubtitleMenuView-FLSubtitleMenuView";
+			productName = "FLSubtitleMenuView-FLSubtitleMenuView";
+			productReference = 0F1D8592BCDCFD7CC60F25B624B14E22 /* FLSubtitleMenuView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F30ADDA3EF3D68E81C507896F93D66F4 /* Pods-FLSubtitleMenuView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C38A50BECB7B6E7395D15D7AACE67A /* Build configuration list for PBXNativeTarget "Pods-FLSubtitleMenuView_Example" */;
+			buildPhases = (
+				226933717983BFCC275B4966EBCD111F /* Sources */,
+				E7155D06EB8E1F4535AD5A4233426E2F /* Frameworks */,
+				7EDED549F90CE26BBE2A947A469A5B79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C2AE4E42C419AFEF9EE3CB89142946 /* PBXTargetDependency */,
+				A4C068DF3AC572E567B27DF3CD5729A2 /* PBXTargetDependency */,
+				971B6D9C8659511E2158E6D6E84A2FC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-FLSubtitleMenuView_Example";
+			productName = "Pods-FLSubtitleMenuView_Example";
+			productReference = DB3042DFFC6F59D04321205ACC0B860F /* Pods_FLSubtitleMenuView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4A22FA8CB004E9E80CDD6D091DB20AD /* FLCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB6B6CD81EDDE038E077A1D33029E57 /* Build configuration list for PBXNativeTarget "FLCategories" */;
+			buildPhases = (
+				CEFF4C2775079717170FFC244A06E22D /* Sources */,
+				7C24126BDAAD9ABB732EEE99159630E3 /* Frameworks */,
+				43AEC680CE2DE660A2BE0AA0CD52C890 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				938E4B9FB2ECEB0F2D5F635042F9E417 /* PBXTargetDependency */,
+			);
+			name = FLCategories;
+			productName = FLCategories;
+			productReference = 54C397F2865664D62843FAB6180905BD /* FLCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A712417A2B48E18DEF1B05BA4D413A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A22FA8CB004E9E80CDD6D091DB20AD /* FLCategories */,
+				A888FCE71F742520F481C064C692177B /* FLSubtitleMenuView */,
+				C302063B8559B15F21BD813A64510B67 /* FLSubtitleMenuView-FLSubtitleMenuView */,
+				9014AF22CD66E97CE35D366770944A09 /* GTMBase64 */,
+				F30ADDA3EF3D68E81C507896F93D66F4 /* Pods-FLSubtitleMenuView_Example */,
+				4A6A34A6697595D24FEA0EE0D37FD07A /* Pods-FLSubtitleMenuView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B77EBDCA22D108582A9EDA8E1AE801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D14F439244A364BC4BC99FA96037FA7 /* FLTagSelectDropDownView.xib in Resources */,
+				2022F2AE0090EC683AC90D0E91F7CCF5 /* sort_choose@2x.png in Resources */,
+				414F744D17FBC6FDC76C3A996A9007EA /* sort_choose@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99546691DC88E2713DC208C3B68FC66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C04A8782C8433B1B42213B224E189 /* FLSubtitleMenuView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199F0898DE97DB949AD5D5FF90C9F48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226933717983BFCC275B4966EBCD111F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505D151C3DC4C477FA89418F6C69187 /* Pods-FLSubtitleMenuView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4034748C479892899ECDE6C0E4FF1910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86089F0AA1C2549545D9C76EF41148C /* Pods-FLSubtitleMenuView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FCC72C778231E2691C659AD74FBFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489D1D9313363E10CE7A036AEF770531 /* GTMBase64-dummy.m in Sources */,
+				D89FAA330C3DE57391534190869552AE /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89BECDCCAB4ED9CAD473E2E5B502317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7DF7375EA3B4E2250AF2E70080FE33 /* FLSubtitleMenuView-dummy.m in Sources */,
+				B639ADB2CEB735C0892C6E32292AAAC1 /* FLSubtitleMenuView.m in Sources */,
+				502ACA3DE1CF65996DE100EC24C96CDF /* FLSubtitleModel.m in Sources */,
+				F28978420736DD5A92AEA713E6B06B40 /* FLTagSelectDropDownView.m in Sources */,
+				F0CBBEE1150FAC1EF0AD7C8A9CF38729 /* NoHighlightButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF4C2775079717170FFC244A06E22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C15E84E454E5B0E4C72D244A7E38A88 /* FLCategories-dummy.m in Sources */,
+				1FE59711D2E486683D8455EFAC3B2A2A /* NSDate+Extension.m in Sources */,
+				1CD175473F66761DB9A55FDF280B19C6 /* NSJSONSerialization+Extension.m in Sources */,
+				13AD7D4B391910E1BBFA34A37FCB8784 /* NSObject+Ext.m in Sources */,
+				C7E3251847FA6E56F418E3DB01D8435D /* NSString+DES.m in Sources */,
+				55EA97C4B9592FE3F07FD0F32E0E84B3 /* NSString+Extension.m in Sources */,
+				10A461ED0C8BDDC8ACEE7E6F931DEAA1 /* NSString+Hash.m in Sources */,
+				47597CEC8CC836930A8FEB3018556478 /* NSString+UINib.m in Sources */,
+				1760F1A848CC1D2EDAB68D8F16838D3F /* UIButton+Space.m in Sources */,
+				FD8ADEE262A26D8A82B125B024FCA82D /* UIColor+FengLei.m in Sources */,
+				669E6AEA8008852AC8E50BB57FE961D1 /* UIColor+XFExtension.m in Sources */,
+				EC5D72192DF9272BB218DDFA3305BCA8 /* UIFont+FengLei.m in Sources */,
+				7A4DFA07A9460B9112E8CDA32A049272 /* UIImage+XFExtension.m in Sources */,
+				84745399A767933D8E0D9F33AAA443F0 /* UITabBarItem+XFBadge.m in Sources */,
+				A3874B243F68669DFB34331C09CA822A /* UIView+Extension.m in Sources */,
+				124E871F201B1718B79ECFF554D4E89A /* UIView+Fillet.m in Sources */,
+				62F636A4064138C1FE2F43F730E39E06 /* UIViewController+Push.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F56DECBEF6AD32D546A049AF77F353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FLSubtitleMenuView-FLSubtitleMenuView";
+			target = C302063B8559B15F21BD813A64510B67 /* FLSubtitleMenuView-FLSubtitleMenuView */;
+			targetProxy = 2DC7E6355912F40D2A4F72E5228EB342 /* PBXContainerItemProxy */;
+		};
+		938E4B9FB2ECEB0F2D5F635042F9E417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMBase64;
+			target = 9014AF22CD66E97CE35D366770944A09 /* GTMBase64 */;
+			targetProxy = CE93AE584C246B1E1EC15D046578E8AC /* PBXContainerItemProxy */;
+		};
+		971B6D9C8659511E2158E6D6E84A2FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMBase64;
+			target = 9014AF22CD66E97CE35D366770944A09 /* GTMBase64 */;
+			targetProxy = 014D58A537C3BC117F4F3FAC79AEEA28 /* PBXContainerItemProxy */;
+		};
+		A3C2AE4E42C419AFEF9EE3CB89142946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLCategories;
+			target = F4A22FA8CB004E9E80CDD6D091DB20AD /* FLCategories */;
+			targetProxy = F7E44F92D06BE82D3850B51D1AB10072 /* PBXContainerItemProxy */;
+		};
+		A4C068DF3AC572E567B27DF3CD5729A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLSubtitleMenuView;
+			target = A888FCE71F742520F481C064C692177B /* FLSubtitleMenuView */;
+			targetProxy = E76723CE0BAC041E24729530A3DBB07E /* PBXContainerItemProxy */;
+		};
+		F563E73F983F8AE49077B1326EC35B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMBase64;
+			target = 9014AF22CD66E97CE35D366770944A09 /* GTMBase64 */;
+			targetProxy = 62280F750387F636DD77D1C53BB27CAD /* PBXContainerItemProxy */;
+		};
+		FD6839A386066ED9939F306505138276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLCategories;
+			target = F4A22FA8CB004E9E80CDD6D091DB20AD /* FLCategories */;
+			targetProxy = 24ADD731BD695FA42DDB219F4AB9DD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E94A6E3EC26AF0E5CC80565239467E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLSubtitleMenuView/FLSubtitleMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLSubtitleMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLSubtitleMenuView/FLSubtitleMenuView.modulemap";
+				PRODUCT_NAME = FLSubtitleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18909F0B65AFA1E366A93AF6464C496C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1759459CF2997E24931F47AD2519A898 /* Pods-FLSubtitleMenuView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Tests/Pods-FLSubtitleMenuView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLSubtitleMenuView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24F9ABC3DD5FDF05FA87C48AF10651F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C5D0C75C98C523F0CB686CC671B3B9 /* Pods-FLSubtitleMenuView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Example/Pods-FLSubtitleMenuView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLSubtitleMenuView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C215491FB0DB32FD0213B785C0A05A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4B30758362A45EE4A46EA9B41A03D9 /* FLCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLCategories/FLCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLCategories/FLCategories.modulemap";
+				PRODUCT_NAME = FLCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		371F620F1685B0C73B70E92A767CC5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DF8A1E803E9E0C62DC01DCADC03B7D /* Pods-FLSubtitleMenuView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Tests/Pods-FLSubtitleMenuView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLSubtitleMenuView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703D64919B1869CA331D4988E1B21B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4B30758362A45EE4A46EA9B41A03D9 /* FLCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLCategories/FLCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLCategories/FLCategories.modulemap";
+				PRODUCT_NAME = FLCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AB202982E257CCC1200566D874465ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A090989F78E904FAE2235B43CBB7139 /* GTMBase64.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMBase64/GTMBase64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMBase64/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMBase64/GTMBase64.modulemap";
+				PRODUCT_NAME = GTMBase64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9CE0853CFF7BAECC5773EE0C2654AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FLSubtitleMenuView";
+				INFOPLIST_FILE = "Target Support Files/FLSubtitleMenuView/ResourceBundle-FLSubtitleMenuView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FLSubtitleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AA22A646F986360C7094360F42A5339E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLSubtitleMenuView/FLSubtitleMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLSubtitleMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLSubtitleMenuView/FLSubtitleMenuView.modulemap";
+				PRODUCT_NAME = FLSubtitleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42FA3A5D900D2F796844B6435410CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F811E21441A34F90F822FA3C3DFADC29 /* Pods-FLSubtitleMenuView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FLSubtitleMenuView_Example/Pods-FLSubtitleMenuView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FLSubtitleMenuView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CACB6FCD25F76EF796CB3F7515DEF952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A090989F78E904FAE2235B43CBB7139 /* GTMBase64.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMBase64/GTMBase64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMBase64/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMBase64/GTMBase64.modulemap";
+				PRODUCT_NAME = GTMBase64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F93BFEF706B5001926623A1EBDADC86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75946CAFC20FC5A7D66E87F52782480A /* FLSubtitleMenuView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FLSubtitleMenuView";
+				INFOPLIST_FILE = "Target Support Files/FLSubtitleMenuView/ResourceBundle-FLSubtitleMenuView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FLSubtitleMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB6B6CD81EDDE038E077A1D33029E57 /* Build configuration list for PBXNativeTarget "FLCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C215491FB0DB32FD0213B785C0A05A9 /* Debug */,
+				703D64919B1869CA331D4988E1B21B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7941BAECC959C64EEEAB5EB4A10D0EC9 /* Build configuration list for PBXNativeTarget "FLSubtitleMenuView-FLSubtitleMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CE0853CFF7BAECC5773EE0C2654AF9 /* Debug */,
+				F93BFEF706B5001926623A1EBDADC86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931A1FE59EF8E8BA3CDADCA275937E6C /* Build configuration list for PBXNativeTarget "Pods-FLSubtitleMenuView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18909F0B65AFA1E366A93AF6464C496C /* Debug */,
+				371F620F1685B0C73B70E92A767CC5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C38A50BECB7B6E7395D15D7AACE67A /* Build configuration list for PBXNativeTarget "Pods-FLSubtitleMenuView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F9ABC3DD5FDF05FA87C48AF10651F4 /* Debug */,
+				B42FA3A5D900D2F796844B6435410CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E101962AF56D6A7F45B5DAADD2839C /* Build configuration list for PBXNativeTarget "GTMBase64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACB6FCD25F76EF796CB3F7515DEF952 /* Debug */,
+				7AB202982E257CCC1200566D874465ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C070646B99602907C8325A49DF857209 /* Build configuration list for PBXNativeTarget "FLSubtitleMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22A646F986360C7094360F42A5339E /* Debug */,
+				0E94A6E3EC26AF0E5CC80565239467E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

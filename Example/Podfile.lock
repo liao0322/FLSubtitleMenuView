@@ -1,0 +1,22 @@
+PODS:
+  - FLCategories (0.7.1):
+    - GTMBase64
+  - FLSubtitleMenuView (0.1.0):
+    - FLCategories
+  - GTMBase64 (1.0.1)
+
+DEPENDENCIES:
+  - FLSubtitleMenuView (from `../`)
+
+EXTERNAL SOURCES:
+  FLSubtitleMenuView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FLCategories: b444690bcd461d548ebe92631edbd11c97cfa4d5
+  FLSubtitleMenuView: e32caa3b7105d6dd794fd2943fcc8f716b198bb9
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+
+PODFILE CHECKSUM: 8cd44319cd26a0b11d9e3f015ded36a0e4a5e22c
+
+COCOAPODS: 1.4.0

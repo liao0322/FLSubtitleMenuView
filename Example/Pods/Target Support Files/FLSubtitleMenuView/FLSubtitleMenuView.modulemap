@@ -1,0 +1,6 @@
+framework module FLSubtitleMenuView {
+  umbrella header "FLSubtitleMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FLSubtitleMenuView_Tests {
+  umbrella header "Pods-FLSubtitleMenuView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

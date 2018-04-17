@@ -1,3 +1,6 @@
+source 'https://gitlab.com/liao0322/FengLeiSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'FLSubtitleMenuView_Example' do
