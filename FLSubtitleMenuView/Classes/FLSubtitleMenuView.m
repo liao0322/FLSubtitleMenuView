@@ -10,6 +10,7 @@
 #import "FLSubtitleModel.h"
 #import "FLTagSelectDropDownView.h"
 #import "NSString+UINib.h"
+#import "UIImage+XFExtension.h"
 
 @interface FLSubtitleMenuView ()
 
@@ -38,7 +39,7 @@
         _selectedIndex = 0;
         _subtitles = subtitles;
         _buttons = [NSMutableArray arrayWithCapacity:subtitles.count];
-        
+        self.backgroundColor = [UIColor whiteColor];
         [self createSubviews];
     }
     return self;
@@ -57,7 +58,10 @@
     [self.subtitles enumerateObjectsUsingBlock:^(FLSubtitleModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setTitle:obj.subtitle forState:UIControlStateNormal];
-        [btn setImage:[UIImage imageNamed:obj.imageName] forState:UIControlStateNormal];
+        [btn setImage:[UIImage imageWithName:obj.imageName bundle:@"FLSubtitleMenuView" targetClass:[self class]] forState:UIControlStateNormal];
+        
+        
+        
         [btn setTitleColor:[UIColor colorWithRed:153/255.0f green:153/255.0f blue:153/255.0f alpha:1] forState:UIControlStateNormal];
         [btn.titleLabel setFont:[UIFont systemFontOfSize:14]];
         [btn setTitleColor:[UIColor colorWithRed:51/255.0f green:51/255.0f blue:51/255.0f alpha:1] forState:UIControlStateSelected];
@@ -113,7 +117,8 @@
     
     if (self.selectedButton.tag == 3) { // 上一个按钮是最后一个
         [self.selectedButton setTitle:nil forState:UIControlStateNormal];
-        [self.selectedButton setImage:[UIImage imageNamed:@"sort_choose"] forState:UIControlStateNormal];
+        [self.selectedButton setImage:[UIImage imageWithName:@"sort_choose" bundle:@"FLSubtitleMenuView" targetClass:[self class]] forState:UIControlStateNormal];
+        
     }
     
     self.selectedButton.selected = NO;
